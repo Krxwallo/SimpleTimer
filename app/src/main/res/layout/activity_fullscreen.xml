@@ -14,8 +14,9 @@
         android:gravity="center"
         android:keepScreenOn="true"
         android:text="@string/default_time"
+        android:textSize="@dimen/timer_size"
         android:textColor="?attr/fullscreenTextColor"
-        android:textSize="50sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
 
 </FrameLayout>
