@@ -23,7 +23,7 @@ class FullscreenActivity : AppCompatActivity() {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         WindowCompat.setDecorFitsSystemWindows(window, false)
         @Suppress("DEPRECATION")
-        window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
         binding = ActivityFullscreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
